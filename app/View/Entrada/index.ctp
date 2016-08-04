@@ -71,7 +71,7 @@ text-shadow: 1px 1px 1px #d8d8d8;">
 <img src="<?= $this->webroot ?>img/ajax2.png">
 <img src="<?= $this->webroot ?>img/cake.power.PNG">
 <img src="<?= $this->webroot ?>img/ubuntu.png">
-<center>Panel de Control DOMINICAR</center></div>
+<center>Panel de Control</center></div>
 </table></td></tr></table>
 
  <!--<object style="visibility: visible;" id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="151" width="112">

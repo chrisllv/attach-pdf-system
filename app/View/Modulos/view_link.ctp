@@ -33,7 +33,7 @@ text-shadow: 1px 1px 1px #696969;">
 <img src="<?= $this->webroot ?>img/ajax2.png">
 <img src="<?= $this->webroot ?>img/cake.power.PNG">
 <img src="<?= $this->webroot ?>img/ubuntu.png">
-<center>Panel de Control DOMINICAR</center></div>
+<center>Panel de Control</center></div>
  <object style="visibility: visible;" id="FlashID2" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" height="271" width="232">
     <param name="movie" value="flash/logo_cicpc.swf">
     <param name="quality" value="high">
