@@ -1,0 +1,3 @@
+clave = bTPntfy$$1*M
+user  = pricespl_dominic
+base  = pricespl_dominicar
