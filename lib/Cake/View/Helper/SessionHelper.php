@@ -144,9 +144,15 @@ class SessionHelper extends AppHelper {
 			if ($flash['element'] == 'default') {
 				$class = 'message';
 				if (!empty($flash['params']['class'])) {
-					$class = $flash['params']['class'];
+					if($flash['params']['class']=="success"){
+						$class = "alert alert-success fade in";
+					}else if($flash['params']['class']=="error"){
+						$class = "alert alert-block alert-danger fade in";
+					}else{
+						$class = $flash['params']['class'];
+					}
 				}
-				$out = '<div id="' . $key . 'Message" class="' . $class . '">' . $message . '</div>';
+				$out = '<div id="' . $key . 'Message" class="' . $class . '"><button type="button" class="close close-sm" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>' . $message . '</div>';
 			} elseif ($flash['element'] == '' || $flash['element'] == null) {
 				$out = $message;
 			} else {
@@ -162,7 +168,6 @@ class SessionHelper extends AppHelper {
 		}
 		return $out;
 	}
-
 /**
  * Used to check is a session is valid in a view
  *

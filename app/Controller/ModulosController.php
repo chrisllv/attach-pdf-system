@@ -211,4 +211,17 @@ class ModulosController extends AppController {
 	    	$this->set('msj',$deno);
 	    }
 	}//end modulos
+
+
+/**
+ * panel method
+ *
+ * @return void
+ */
+  public function panel($msj=null) {
+    	$this->layout = 'panel';
+    	if(isset($msj) && $msj!=null){
+	    	$this->Session->setFlash(__('Bienvenido al panel de administrador, ha iniciado sesion correctamente.'), "default", array('class'=>'success'));
+		}
+   }
 }

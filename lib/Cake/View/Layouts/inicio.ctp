@@ -39,8 +39,6 @@
 </head>
 <body  onload="focus_usuario();">
 			<?php echo $this->Session->flash(); ?>
-
 			<?php echo $content_for_layout; ?>
-
 </body>
 </html>

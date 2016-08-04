@@ -8,7 +8,7 @@ class EntradaController extends AppController {
 
 
 	function index ($var=null) {
-		$this->layout="inicio";
+		$this->layout="login_admin";
 		if(isset($var) && $var == "login"){
              if(!empty($this->request->data['usuario']) && !empty($this->request->data['clave'])){
 				extract($this->request->data);
@@ -36,17 +36,19 @@ class EntradaController extends AppController {
 					  $this->Session->write('USUARIO_ACTIVO', $activo);
 					  $this->Session->write('USUARIO_AREA', $area_id);
 					  $this->Session->write('USUARIO_CARGO', $cargo_id);
-                      $this->redirect('/modulos/view_link');
+//                      $this->redirect('/modulos/view_link');
+					  $this->redirect('/modulos/panel/1');
+
 				}else{
-				      $this->set("msg", "USUARIO/CONTRASEÑA INVALIDOS");
+				      $this->Session->setFlash(__('USUARIO/CONTRASEÑA INVALIDOS'), "default", array('class'=>'error'));
 				}
              }
 		}elseif(isset($var) && $var == "cerrar_session"){
-			$this->set("msg", "SESIÓN FINALIZADA");
+			$this->Session->setFlash(__('SESIÓN FINALIZADA'), "default", array('class'=>'error'));
 		}
 	}//end index
 	function salir(){
-		$this->layout="inicio";
+		$this->layout="login_admin";
 		$id=$this->Session->read('USUARIO_ID');
 		if($id!=''){
 			$this->Usuario->query("UPDATE usuarios SET enlinea=0, entrada_actualizada=now() WHERE id='$id'  ");
