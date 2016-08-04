@@ -4,10 +4,10 @@ class DATABASE_CONFIG {
     public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'root',
-		'password' => '*daimon*',
-		'database' => 'dominicar',
+		'host' => 'secure203.servconfig.com',
+		'login' => 'chrisl25_pdf',
+		'password' => 'pdfsystem123',
+		'database' => 'chrisl25_pdf',
 	);
 
 	function __construct() {
