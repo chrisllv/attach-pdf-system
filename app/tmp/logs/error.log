@@ -8302,3 +8302,33 @@
 2016-08-04 08:21:19 Error: [MissingControllerException] Controller class Sbap.icoController could not be found.
 #0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-08-04 08:33:52 Error: [MissingControllerException] Controller class DbController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-04 08:33:52 Error: [MissingControllerException] Controller class DbController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-04 08:33:52 Error: [MissingControllerException] Controller class DbController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-04 08:35:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-04 08:37:40 Error: [MissingControllerException] Controller class AutosController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-04 08:37:40 Error: [MissingControllerException] Controller class AutosController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-04 08:37:40 Error: [MissingControllerException] Controller class AutosController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-04 08:39:51 Error: [MissingControllerException] Controller class AutosController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-04 08:39:51 Error: [MissingControllerException] Controller class AutosController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-04 08:39:51 Error: [MissingControllerException] Controller class AutosController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

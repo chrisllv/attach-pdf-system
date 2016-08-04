@@ -1,6 +1,6 @@
 
 // directory of where all the images are
-var cmThemeOfficeBase = '/autos/app/webroot/menu/';
+var cmThemeOfficeBase = '/menu/';
 
 var cmThemeOffice =
 {
