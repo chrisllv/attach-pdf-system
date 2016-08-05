@@ -28,3 +28,8 @@ function alerta(MSJ){
 	nMiliSegundos=9000;
 	window.setTimeout("limpiar_msj(2)", nMiliSegundos);
 }
+
+
+function cargar(url, id, value){
+	$(id).load(url+'/'+value);
+}

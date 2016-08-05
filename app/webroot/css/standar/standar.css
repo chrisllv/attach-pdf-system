@@ -1,0 +1,25 @@
+body {
+    background-color: #F1F1F1;
+    background-image: url(scribble_light.png);  
+    background-position: inherit inherit; 
+    background-repeat: repeat repeat;
+}
+
+.container {
+    background-color: #FFF;
+    border-top: 1px #D1D1D1 solid;
+    border-left: 1px #D1D1D1 solid;
+    border-right: 1px #D1D1D1 solid;
+    border-bottom: 1px #D1D1D1 solid;
+    padding-top: 20px;
+}
+
+.header-link {
+    font-size: 16px;
+    color: #818181;
+}
+
+.header-link:hover {
+    color: #A1A1A1;
+    text-decoration: none;
+}

@@ -1,0 +1,81 @@
+.bgcolor-white {
+  background-color: #fff;
+}
+
+.result-list {
+  background-color: #fff;
+  padding: 5px;  
+}
+
+.orange {
+   color: #fff;
+   background-color: #E67E22;
+}
+
+.text-orange {
+  font-size: 1em;
+  font-weight: bold;
+  color: #E67E22;
+}
+
+.shop-item .title div {
+  padding-top: 3px; 
+  font-size: 0.8em;
+  line-height: 1.4em;
+  margin: 0 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.btn-white {
+  border: 1px solid #FFF;
+  color: #B1B1B1;
+  background: none repeat scroll 0 0 #FFF;/*#E7E7E7*/
+}
+.btn-white:hover {
+  background: none repeat scroll 0 0 #F1F1F1;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #cecece;
+}
+.btn-white .caret {
+  border-top: 4px solid #333;
+}
+
+/*** move top **/
+#toTop {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  overflow: hidden;
+  width:55px;
+  height:50px;
+  border: none;
+  text-indent: 100%;
+  background: url(../img/arrow_up.png) no-repeat right top;
+}
+
+#table-search select{
+  clear: both;
+  border: 0px solid;
+  border-color: #FFFFFF;
+  font-size: 120%;
+  vertical-align: text-bottom;
+}
+
+#table-search option{
+  font-size: 120%;
+  padding: 0 3px;
+}
+
+/*
+.flashMessage{
+  z-index: 100;
+}
+*/
+
+.title-grid {
+  color: #000;
+}
