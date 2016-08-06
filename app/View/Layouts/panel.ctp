@@ -39,8 +39,6 @@
     echo $this->Html->css('panel/xcharts.min.css');
     echo $this->Html->css('panel/jquery-ui-1.10.4.min.css');
 
-    //script js
-    echo $this->Html->script('panel/script.js');
     ?>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
     <!--[if lt IE 9]>
@@ -192,8 +190,8 @@
 
 <?php
 // javascripts -->
-echo $this->Html->script('panel/script.js');
 echo $this->Html->script('panel/jquery.js');
+echo $this->Html->script('panel/script.js');
 echo $this->Html->script('panel/jquery-ui-1.10.4.min.js');
 echo $this->Html->script('panel/jquery-1.8.3.min.js');
 echo $this->Html->script('panel/jquery-ui-1.9.2.custom.min.js');

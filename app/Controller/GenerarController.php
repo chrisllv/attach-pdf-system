@@ -35,7 +35,7 @@ var $uses= array('Usuario');
  * @return void
  */
     public function generar(){
-    	$this->layout = 'pdf';
+    	$this->layout = 'ajax';
     	App::import('Vendor', 'yt_downloader', array('file' => 'youtube/youtube-dl.class.php'));
     	$mytube = new yt_downloader($this->request->data["generar"]["url"], TRUE, "audio", $this->request->data["generar"]["inicio"], $this->request->data["generar"]["fin"]);
 		$audio   = $mytube->get_audio();
@@ -46,7 +46,7 @@ var $uses= array('Usuario');
 		}
 		App::import('Vendor', 'TCPDF',         array('file' => 'TCPDF-master/tcpdf.php'));
 	    $this->set("name", "generado.pdf");
-	    $this->set("url", $path_dl.$audio );
+	    $this->set("url", "/var/www/attach-pdf-system/app/webroot/videos/".$audio );
 
 	}
 
@@ -56,6 +56,15 @@ var $uses= array('Usuario');
  * @return void
  */
     public function session(){
+    	$this->layout = 'ajax';
+
+	}
+/**
+ * sessionl method
+ *
+ * @return void
+ */
+    public function sessionl(){
     	$this->layout = 'ajax';
 
 	}

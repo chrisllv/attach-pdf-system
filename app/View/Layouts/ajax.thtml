@@ -1,0 +1,305 @@
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+	//if(document.getElementById("tr")){
+		if(jQuery("tr").length){
+			jQuery("tr").each(function(i){
+		      var bbg = jQuery(this).attr("bgcolor");
+		      if(bbg=="#CDF2FF"){
+				jQuery(this).attr("bgcolor","#f7f7f7");
+			   }
+			   if(bbg=="#DAEBFF"){
+				jQuery(this).attr("bgcolor","#ffffff");
+			   }
+		   });
+
+			jQuery("td").each(function(i){
+		      var al = jQuery(this).attr("align");
+		      if(al=="center"){
+				jQuery(this).attr("style","text-align:center;");
+			   }
+			   if(al=="left"){
+				jQuery(this).attr("style","text-align:left !important;");
+			   }
+			   if(al=="right"){
+				jQuery(this).attr("style","text-align:right !important;");
+			   }
+
+			   if(al==null){
+				jQuery(this).attr("style","text-align:left !important;");
+			   }
+
+		   });
+
+
+		<?php
+
+		/*jQuery("img").each(function(i){
+	      var srcimg = jQuery(this).attr("src");
+	      /*
+	      if(srcimg=="/img/edit.png" || srcimg=="/img/editnotas.png"){
+			jQuery(this).attr("src","/img/blank.gif");
+			jQuery(this).attr("width","0");
+			jQuery(this).attr("height","0");
+			jQuery(this).wrap("<span class='icon-edit'></span>");
+		   }*
+		   if(srcimg=="/img/delete.png" || srcimg=="/img/salir_1.png"){
+			jQuery(this).attr("src","/img/blank.gif");
+			jQuery(this).attr("width","0");
+			jQuery(this).attr("height","0");
+			jQuery(this).wrap("<span class='icon-trash'></span>");
+		   }
+
+		   if(srcimg=="/img/cancel.png" || srcimg=="/img/cancela_fila.png"){
+			jQuery(this).attr("src","/img/blank.gif");
+			jQuery(this).attr("width","0");
+			jQuery(this).attr("height","0");
+			jQuery(this).wrap("<span class='icon-remove-sign'></span>");
+		   }
+
+		   if(srcimg=="/img/delete_disabled.png"){
+			jQuery(this).attr("src","/img/blank.gif");
+			jQuery(this).attr("width","0");
+			jQuery(this).attr("height","0");
+			jQuery(this).wrap("<span class='icon-trash' style='color:#cccccc !important;'></span>");
+		   }*
+
+		   if(srcimg=="/img/eye.png"){
+			jQuery(this).attr("src","/img/blank.gif");
+			var ooooc = jQuery(this).attr("onclick");
+			jQuery(this).attr("width","0");
+			jQuery(this).attr("height","0");
+			if(ooooc!=''){
+				jQuery(this).wrap('<span class="icon-eye-open" onclick="'+ooooc+'"></span>');
+			}else{
+				jQuery(this).wrap("<span class='icon-eye-open'></span>");
+			}
+
+		   }
+		   * /
+
+
+
+	   });*/
+
+?>
+
+		jQuery("td input").each(function(i){
+	      var classimg = jQuery(this).attr("class");
+	      var classid = jQuery(this).attr("id");
+
+	      if(classimg=="guardar_input" || classimg=="guardar_fila"){
+			jQuery(this).attr("style","display:none;");
+			var iddd = jQuery(this).attr("id");
+			//alert(this.id);
+			iddd = iddd.trim();
+			bb_oncl = 'onclick="$(\''+iddd+'\').click();"';
+			if(!document.getElementById('new_bt_savespan'+this.id)){
+				jQuery(this).wrap('<span class="icon-save" '+bb_oncl+' id="new_bt_savespan'+this.id+'"></span>');
+			}
+		   }
+
+		   if(classimg=="cancela_fila"){
+			jQuery(this).attr("style","display:none;");
+			var iddd = jQuery(this).attr("id");
+			//alert(this.id);
+			iddd = iddd.trim();
+			bb_oncl = 'onclick="$(\''+iddd+'\').click();"';
+			if(!document.getElementById('new_bt_canspan'+this.id)){
+				jQuery(this).wrap('<span class="icon-remove-sign" '+bb_oncl+' id="new_bt_canspan'+this.id+'"></span>');
+			}
+		   }
+
+		   <?php /*
+
+
+		 //   if(classimg=="link_pdf"){
+			// jQuery(this).attr("style","display:none;");
+			// var iddd = jQuery(this).attr("id");
+			// //alert(this.id);
+			// iddd = iddd.trim();
+			// bb_oncl = 'onclick="$(\''+iddd+'\').click();"';
+			// if(!document.getElementById('new_bt_pdf'+this.id)){
+			// 	jQuery(this).wrap('<span class="icon-save" '+bb_oncl+' id="new_bt_pdf'+this.id+'"></span>');
+			// }
+		 //   }
+
+		 */ ?>
+
+
+	   });
+}//fin verifica si existe la etiqueta TR
+//}//fin verifica si existe la etiqueta TR
+
+
+
+
+
+});
+</script>
+<?php
+ echo "\n";
+ echo $content_for_layout;
+ echo "\n";
+?>
+<script type="text/javascript">
+
+        if(document.getElementById('bt_plus')){
+        	jQuery('#bt_plus').attr("style","display:none;");
+			bb_onclplus = 'onclick="$(\'bt_plus\').click();"';
+			if(!document.getElementById('new_bt_plus')){
+				jQuery('#bt_plus').wrap('<span class="icon-plus-sign" '+bb_onclplus+' id="new_bt_plus" style="cursor:pointer;"></span>');
+			}
+
+        }
+
+        if(document.getElementById('plus')){
+        	jQuery('#plus').attr("style","display:none;");
+        	var dise=jQuery('#plus').attr("disabled");
+//        	alert(dise);
+			bb_onclplus = 'onclick="$(\'plus\').click();"';
+			if(!document.getElementById('new_bt_plus')){
+				if(dise=='disabled'){
+					jQuery('#plus').wrap('<span class="icon-plus-sign" '+bb_onclplus+' id="new_bt_plus" style="color:#cccccc !important; cursor:pointer;"></span>');
+				}else{
+					jQuery('#plus').wrap('<span class="icon-plus-sign" '+bb_onclplus+' id="new_bt_plus"  style="cursor:pointer;"></span>');
+				}
+
+			}
+
+        }
+<?php /*
+   //      if(document.getElementById('link_pdf')){
+   //      	jQuery('#link_pdf').attr("style","display:none;");
+			// bb_onclplus = 'onclick="$(\'link_pdf\').click();"';
+			// if(!document.getElementById('new_link_pdf')){
+			// 	jQuery('#link_pdf').wrap('<span class="icon-plus-sign" '+bb_onclplus+' id="new_link_pdf"></span>');
+			// }
+
+   //      }
+*/?>
+        if(document.getElementById('agregar')){
+        	jQuery('#agregar').attr("style","display:none;");
+			bb_onclplus = 'onclick="$(\'agregar\').click();"';
+			if(!document.getElementById('new_bt_plus')){
+				jQuery('#agregar').wrap('<span class="icon-plus-sign" '+bb_onclplus+' id="new_bt_plus"  style="cursor:pointer;"></span>');
+			}
+
+        }
+
+        if(document.getElementById('agregar_v2')){
+        	jQuery('#agregar_v2').attr("style","display:none;");
+			bb_onclplus = 'onclick="$(\'agregar_v2\').click();"';
+			if(!document.getElementById('new_bt_plus_v2')){
+				jQuery('#agregar_v2').wrap('<span class="icon-plus-sign" '+bb_onclplus+' id="new_bt_plus_v2" style="cursor:pointer;"></span>');
+			}
+
+        }
+
+        if(document.getElementById('agregar_v3')){
+        	jQuery('#agregar_v3').attr("style","display:none;");
+			bb_onclplus = 'onclick="$(\'agregar_v3\').click();"';
+			if(!document.getElementById('new_bt_plus_v3')){
+				jQuery('#agregar_v3').wrap('<span class="icon-plus-sign" '+bb_onclplus+' id="new_bt_plus_v3" style="cursor:pointer;"></span>');
+			}
+
+        }
+
+
+        if(document.getElementById('agregar_v4')){
+        	jQuery('#agregar_v4').attr("style","display:none;");
+			bb_onclplus = 'onclick="$(\'agregar_v4\').click();"';
+			if(!document.getElementById('new_bt_plus_v4')){
+				jQuery('#agregar_v4').wrap('<span class="icon-plus-sign" '+bb_onclplus+' id="new_bt_plus_v4" style="cursor:pointer;"></span>');
+			}
+
+        }
+
+
+        if(document.getElementById('agregar_v5')){
+        	jQuery('#agregar_v5').attr("style","display:none;");
+			bb_onclplus = 'onclick="$(\'agregar_v5\').click();"';
+			if(!document.getElementById('new_bt_plus_v5')){
+				jQuery('#agregar_v5').wrap('<span class="icon-plus-sign" '+bb_onclplus+' id="new_bt_plus_v5" style="cursor:pointer;"></span>');
+			}
+
+        }
+
+        if(document.getElementById('bb')){
+        	jQuery('#bb').attr("style","display:none;");
+			bb_onclplus = 'onclick="$(\'bb\').click();"';
+			if(!document.getElementById('new_bt_plus')){
+				jQuery('#bb').wrap('<span class="icon-plus-sign" '+bb_onclplus+' id="new_bt_plus"  style="cursor:pointer;"></span>');
+			}
+        }
+
+        if(document.getElementById('save')){
+        	var tit = jQuery('#save').attr("title");
+
+        	if(tit=="+"){
+        		//alert('a');
+        		jQuery('#save').attr("style","display:none;");
+				bb_onclplussave = 'onclick="$(\'save\').click();"';
+				if(!document.getElementById('new_bt_plus_save')){
+					jQuery('#save').wrap('<span class="icon-plus-sign" '+bb_onclplussave+' id="new_bt_plus_save"  style="cursor:pointer;"></span>');
+				}
+        	}
+
+        }
+
+
+<?php
+/*
+	  jQuery("td a").each(function(i){
+	      var classimg = jQuery(this).attr("class");
+	      var classid = jQuery(this).attr("id");
+
+		   if(classimg=="link_pdf"){
+			jQuery(this).attr("style","display:none;");
+			var iddd = jQuery(this).attr("id");
+			//alert(this.id);
+			iddd = iddd.trim();
+			bb_oncl = 'onclick="$(\''+iddd+'\').click();"';
+			if(!document.getElementById('new_bt_pdf'+this.id)){
+				jQuery(this).wrap('<span class="icon-print" '+bb_oncl+' id="new_bt_pdf'+this.id+'"></span>');
+			}
+		   }
+	   });
+	  */
+?>
+</script>
+<?php
+/*
+<script type="text/javascript">// <![CDATA[
+            jQuery(document).ready(function() {
+					  jQuery("#tooltip1").mouseover(function(){
+						 eleOffset = jQuery(this).offset();
+						jQuery(this).next().fadeIn("fast").css({
+									left: eleOffset.left + jQuery(this).outerWidth(),
+									top: eleOffset.top
+								});
+						}).mouseout(function(){
+							jQuery(this).next().hide();
+						});
+						jQuery("#tooltip2").mouseover(function(){
+							jQuery("#tooltip2").mousemove(function(e){
+								 jQuery(this).next().css({left : e.pageX , top: e.pageY});
+							  });
+							eleOffset = jQuery(this).offset();
+							jQuery(this).next().fadeIn("fast").css({
+
+									left: eleOffset.left + jQuery(this).outerWidth(),
+									top: eleOffset.top
+
+								});
+						}).mouseout(function(){
+							jQuery(this).next().fadeOut("fast");
+						});
+			});
+// ]]></script>
+*/
+?>
+
+
+<?php
+include('email_error_dage.php');
+?>

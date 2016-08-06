@@ -39,13 +39,16 @@ $pdf->AddPage();
 $txt = 'GENERANDO ACTA DEL AYUNTAMIENTO, Doble click en el icono para abrir escuchar la session.';
 $pdf->Write(0, $txt, '', 0, 'L', true, 0, false, false, 0);
 
+
 // attach an external file
-$pdf->Annotation(70, 18, 5, 5, 'Archivo de audio', array('Subtype'=>'FileAttachment', 'Name' => 'PushPin', 'FS' => WWW_ROOT.$url));
+$pdf->Annotation(70, 18, 5, 5, 'Archivo de audio', array('Subtype'=>'FileAttachment', 'Name' => 'PushPin', 'FS' => $url));
 
 // ---------------------------------------------------------
 
 //Close and output PDF document
 $pdf->Output($name, 'D');
+
+unlink($url);
 
 //============================================================+
 // END OF FILE
