@@ -3,12 +3,10 @@ $url =  $this->Html->url("/generar/sessionl");
 ?>
 		<table border="0">
 		<tr>
-		  <td width="50%">Sesion</td>
-		  <td>Acta</td>
+		  <td width="50%">Tipo de Sesion</td>
 		</tr>
 		<tr>
-		  <td><?php echo $this->Form->input('seccion', array('style'=>'width:200px', 'label'=>false, 'class'=>'form-control', 'empty'=>'- - - Seleccione - - -', 'options' =>array(1=>'Ordinaria', 2=>'Extraordinaria'),  'onchange'=>'cargar("'.$url.'", "sessionl", this.value );')); ?></td>
-		  <td><input type="file" size="10"></td>
+		  <td><?php echo $this->Form->input('generar.seccion', array('style'=>'width:200px', 'label'=>false, 'class'=>'form-control', 'options' =>array(1=>'Ordinaria', 2=>'Extraordinaria'),  'onchange'=>'cargar("'.$url.'", "sessionl", this.value );', 'size'=>'5')); ?></td>
 		</tr>
 		</table>
 <br />

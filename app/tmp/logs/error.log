@@ -10468,3 +10468,419 @@
 2016-08-05 23:04:51 Error: [MissingControllerException] Controller class JsController could not be found.
 #0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-08-05 23:37:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-05 23:37:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-05 23:38:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-05 23:38:22 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-07 09:19:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-07 09:19:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-07 09:19:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-07 09:20:36 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-07 09:31:41 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-07 09:44:29 Error: [Exception] Invalid Youtube video ID: http://www.youtube.com?v= 1
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(110): yt_downloader->set_youtube('http://www.yout...')
+#1 /var/www/attach-pdf-system/app/Controller/GenerarController.php(57): yt_downloader->__construct('http://www.yout...', true, 'audio', '10 1', '80 1')
+#2 [internal function]: GenerarController->generar()
+#3 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#4 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-07 09:47:22 Error: [Exception] Invalid Youtube video ID: http://www.youtube.com?v=8Oa5objvboc 1
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(110): yt_downloader->set_youtube('http://www.yout...')
+#1 /var/www/attach-pdf-system/app/Controller/GenerarController.php(57): yt_downloader->__construct('http://www.yout...', true, 'audio', '10 1', '80 1')
+#2 [internal function]: GenerarController->generar()
+#3 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#4 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-07 09:47:37 Error: [Exception] Invalid Youtube video ID: http://www.youtube.com?v=8Oa5objvboc 1
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(110): yt_downloader->set_youtube('http://www.yout...')
+#1 /var/www/attach-pdf-system/app/Controller/GenerarController.php(57): yt_downloader->__construct('http://www.yout...', true, 'audio', '10 1', '80 1')
+#2 [internal function]: GenerarController->generar()
+#3 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#4 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-07 09:47:42 Error: [Exception] Invalid Youtube video ID: http://www.youtube.com?v=8Oa5objvboc 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(110): yt_downloader->set_youtube('http://www.yout...')
+#1 /var/www/attach-pdf-system/app/Controller/GenerarController.php(57): yt_downloader->__construct('http://www.yout...', true, 'audio', '10 1', '80 1')
+#2 [internal function]: GenerarController->generar()
+#3 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#4 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-07 09:47:47 Error: [Exception] Invalid Youtube video ID: http://www.youtube.com?v=8Oa5objvboc 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(110): yt_downloader->set_youtube('http://www.yout...')
+#1 /var/www/attach-pdf-system/app/Controller/GenerarController.php(57): yt_downloader->__construct('http://www.yout...', true, 'audio', '10 1', '80 1')
+#2 [internal function]: GenerarController->generar()
+#3 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#4 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-07 09:47:49 Error: [Exception] Invalid Youtube video ID: http://www.youtube.com?v=8Oa5objvboc 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(110): yt_downloader->set_youtube('http://www.yout...')
+#1 /var/www/attach-pdf-system/app/Controller/GenerarController.php(57): yt_downloader->__construct('http://www.yout...', true, 'audio', '10 1', '80 1')
+#2 [internal function]: GenerarController->generar()
+#3 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#4 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-07 09:48:54 Error: [Exception] Invalid Youtube video ID: http://www.youtube.com?v=8Oa5objvboc
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(110): yt_downloader->set_youtube('http://www.yout...')
+#1 /var/www/attach-pdf-system/app/Controller/GenerarController.php(57): yt_downloader->__construct('http://www.yout...', true, 'audio', '10', '20')
+#2 [internal function]: GenerarController->generar()
+#3 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#4 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-07 09:48:58 Error: [Exception] Invalid Youtube video ID: http://www.youtube.com?v=8Oa5objvboc
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(110): yt_downloader->set_youtube('http://www.yout...')
+#1 /var/www/attach-pdf-system/app/Controller/GenerarController.php(57): yt_downloader->__construct('http://www.yout...', true, 'audio', '10', '20')
+#2 [internal function]: GenerarController->generar()
+#3 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#4 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-07 09:49:00 Error: [Exception] Invalid Youtube video ID: http://www.youtube.com?v=8Oa5objvboc
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(110): yt_downloader->set_youtube('http://www.yout...')
+#1 /var/www/attach-pdf-system/app/Controller/GenerarController.php(57): yt_downloader->__construct('http://www.yout...', true, 'audio', '10', '20')
+#2 [internal function]: GenerarController->generar()
+#3 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#4 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2016-08-07 09:50:18 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(57): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 09:50:24 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(57): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:00:18 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(60): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:00:24 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(60): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:00:30 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(60): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:00:34 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(60): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:00:39 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(60): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:00:44 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(60): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:03:04 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(60): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:03:08 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(60): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:08:03 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(60): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:08:38 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(60): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:10:48 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(82): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:11:02 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(82): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:11:50 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(83): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:13:38 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(98): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:14:28 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(99): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:26:51 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(103): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:29:24 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(101): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:29:28 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(101): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:36:19 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(101): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 10:36:25 Error: [Exception] Grabbing original file location(s) failed. 
+#0 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(319): yt_downloader->download_video()
+#1 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(122): yt_downloader->download_audio()
+#2 /var/www/attach-pdf-system/app/Vendor/youtube/youtube-dl.class.php(114): yt_downloader->do_download('audio')
+#3 /var/www/attach-pdf-system/app/Controller/GenerarController.php(101): yt_downloader->__construct('https://www.you...', true, 'audio', '10', '20')
+#4 [internal function]: GenerarController->generar()
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(GenerarController), Array)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 12:51:47 Error: [Exception] TCPDF_PARSER ERROR: Empty PDF data.
+#0 /var/www/attach-pdf-system/app/Vendor/PDF_EDIT-master/tcpdf/tcpdf_parser.php(104): TCPDF_PARSER->Error('Empty PDF data.')
+#1 /var/www/attach-pdf-system/app/Vendor/PDF_EDIT-master/pdf_edit.php(55): TCPDF_PARSER->__construct(false)
+#2 /var/www/attach-pdf-system/app/View/Generar/generar.ctp(4): PDF_EDIT->__construct(false)
+#3 /var/www/attach-pdf-system/lib/Cake/View/View.php(598): include('/var/www/attach...')
+#4 /var/www/attach-pdf-system/lib/Cake/View/View.php(365): View->_render('/var/www/attach...')
+#5 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(912): View->render(NULL, NULL)
+#6 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#7 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2016-08-07 14:55:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-07 14:55:06 Error: [MissingActionException] Action EntradaController::img() could not be found.
+#0 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(EntradaController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-08-07 14:55:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-07 16:34:47 Error: [Exception] TCPDF_PARSER ERROR: Unable to find startxref
+#0 /var/www/attach-pdf-system/app/Vendor/PDF_EDIT-master/tcpdf/tcpdf_parser.php(173): TCPDF_PARSER->Error('Unable to find ...')
+#1 /var/www/attach-pdf-system/app/Vendor/PDF_EDIT-master/pdf_edit.php(72): TCPDF_PARSER->getXrefData()
+#2 /var/www/attach-pdf-system/app/Vendor/PDF_EDIT-master/pdf_edit.php(108): PDF_EDIT->ReloadTcpdfData()
+#3 /var/www/attach-pdf-system/app/Vendor/PDF_EDIT-master/pdf_edit.php(397): PDF_EDIT->BuildPDFString()
+#4 /var/www/attach-pdf-system/app/View/Generar/generar.ctp(7): PDF_EDIT->ReplaceText('libre', 'JUANPACHECO')
+#5 /var/www/attach-pdf-system/lib/Cake/View/View.php(598): include('/var/www/attach...')
+#6 /var/www/attach-pdf-system/lib/Cake/View/View.php(365): View->_render('/var/www/attach...')
+#7 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(912): View->render(NULL, NULL)
+#8 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#9 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-08-07 16:35:22 Error: [Exception] TCPDF_PARSER ERROR: Unable to find startxref
+#0 /var/www/attach-pdf-system/app/Vendor/PDF_EDIT-master/tcpdf/tcpdf_parser.php(173): TCPDF_PARSER->Error('Unable to find ...')
+#1 /var/www/attach-pdf-system/app/Vendor/PDF_EDIT-master/pdf_edit.php(72): TCPDF_PARSER->getXrefData()
+#2 /var/www/attach-pdf-system/app/Vendor/PDF_EDIT-master/pdf_edit.php(108): PDF_EDIT->ReloadTcpdfData()
+#3 /var/www/attach-pdf-system/app/Vendor/PDF_EDIT-master/pdf_edit.php(397): PDF_EDIT->BuildPDFString()
+#4 /var/www/attach-pdf-system/app/View/Generar/generar.ctp(7): PDF_EDIT->ReplaceText('libre', 'JUANPACHECO')
+#5 /var/www/attach-pdf-system/lib/Cake/View/View.php(598): include('/var/www/attach...')
+#6 /var/www/attach-pdf-system/lib/Cake/View/View.php(365): View->_render('/var/www/attach...')
+#7 /var/www/attach-pdf-system/lib/Cake/Controller/Controller.php(912): View->render(NULL, NULL)
+#8 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#9 /var/www/attach-pdf-system/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GenerarController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-08-07 17:35:29 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-07 18:11:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-07 18:19:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-07 18:19:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-07 18:22:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-08-07 18:23:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/attach-pdf-system/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
